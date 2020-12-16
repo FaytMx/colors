@@ -13,7 +13,7 @@ Aplicación realizada en Angular la cual consume una [API](https://reqres.in/api
 
 ## Respositorio Git.
 
-Para descargar o clonar el código del proyecto favor visitar el [repositorio](https://reqres.in/api/colors).
+Para descargar o clonar el código del proyecto favor visitar el [repositorio](https://github.com/FaytMx/colors).
 
 ## Instalación de dependencias.
 
@@ -25,8 +25,7 @@ npm install
 
 ## Ejecutar aplicación en desarrollo.
 
-Una vez instaladas las dependencias para poder ejecutar el proyecto en modo de desarrollo ejecutar `ng serve`.
-En el navegador ingresar a  `http://localhost:4200/`. La aplicacion se recargara automaticamente al detectar un cambio.
+Una vez instaladas las dependencias para poder ejecutar el proyecto en modo de desarrollo ejecutar `ng serve`. Para poder usar el comando se debe tener instalado [Angular CLI](https://angular.io/cli). En el navegador ingresar a  `http://localhost:4200/`. La aplicacion se recargara automaticamente al detectar un cambio.
 
 
 ## Build
@@ -36,4 +35,4 @@ Ejecutar `ng build` para copilar el proyecto, los archivos generados se guardara
 
 ## Ejemplo online
 
-Para ver un ejemplo del sitio una vez desplegado, favor de visitar el [ejemplo](https://www.npmjs.com/).
+Para ver un ejemplo del sitio una vez desplegado, favor de visitar el [ejemplo](https://goofy-ardinghelli-8bbf5f.netlify.app/).
