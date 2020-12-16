@@ -1,0 +1,17 @@
+<div class="card card-color text-light shadow" [ngClass]="{'bigger': isCopy}" [style]="('background-color: ' + item.color) | bgcolor"
+  (click)="copyColor(item)">
+
+  <div class="card-body">
+    <div class="row ">
+      <div class="col-12 ">{{item.year}}</div>
+
+        <div class="col-12 text-center my-2 " *ngIf="!isCopy">{{item.name}}</div>
+        <div class="col-12 text-center my-2" *ngIf="!isCopy">{{item.color}}</div>
+
+
+        <div class="col-12 text-center my-2 py-5" *ngIf="isCopy"><h4>¡Copiado!</h4></div>
+
+      <div class="col-12 text-right my-2">{{item.pantone_value}}</div>
+    </div>
+  </div>
+</div>

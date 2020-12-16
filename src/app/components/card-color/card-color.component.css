@@ -1,0 +1,28 @@
+.card-color {
+  width: 350px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  transition:all 0.5s ease-in;
+  cursor: pointer;
+  position: relative;
+}
+
+.card-color:hover {
+  opacity: 0.8;
+  border: 1px solid #000;
+}
+
+.card-color:hover::before{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content:"\f0c5";
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+
+.bigger {
+  width: 900px !important;
+
+}

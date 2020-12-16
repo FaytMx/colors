@@ -1,0 +1,14 @@
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.mylink {
+  color: dodgerblue;
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+}
+
+.mylink:hover {
+  color: mediumseagreen;
+  text-decoration: underline;
+}
